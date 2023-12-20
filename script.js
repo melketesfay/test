@@ -27,7 +27,7 @@ function goodstuff(){
         goodText.style.display = "block"
  
 
-    console.log("hallo")
+
 }
 
 function badstuff(){
