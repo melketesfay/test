@@ -1,24 +1,24 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: 'Inter', sans-serif;
     font-size: 10px;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 4rem;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 
 
@@ -26,39 +26,40 @@ gap: 4rem;
 
 /* Navbar sytling */
 
-nav ul{
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 5rem;
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
 
 }
 
-ul{
+ul {
     margin-left: 0;
     padding-left: 0;
 }
 
 
-li,a{
+li,
+a {
     text-decoration: none;
     list-style: none;
 }
 
-a{
+a {
     font-size: 2.5rem;
     font-weight: bold;
 }
 
 
-a.disabled{
+a.disabled {
     color: gray;
 }
 
 
 /* Main sytling */
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,17 +68,17 @@ a.disabled{
 }
 
 
-.smiley{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.smiley {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 
 
 
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,24 +86,24 @@ a.disabled{
     gap: 10rem;
 }
 
-button{
+button {
     font-size: 2.5rem;
     padding: 1rem 2rem;
     border: none;
     border-radius: 0.5rem;
 }
 
-.good-btn{
+.good-btn {
     background-color: green;
-   
+
 
 }
 
-.bad-btn{
+.bad-btn {
     background-color: red;
 }
 
-.text{
+.text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,6 +111,11 @@ button{
     margin-top: 10rem;
 }
 
-footer{
-    margin-top: 90%;
+footer {
+
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
 }
